@@ -1,0 +1,16 @@
+{
+  "name": "03-bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "preinstall": "make",
+    "preuninstall": "rm -rf node_modules/.bin/my-app",
+    "start": "my-app"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
